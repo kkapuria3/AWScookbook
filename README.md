@@ -8,14 +8,14 @@ With InstantR.sh you can create a launch template that contains the configuratio
 	aws configure
 
 Example:
-AWS Access Key ID : ----
+`AWS Access Key ID : ----
 
 AWS Secret Access Key : -----
 
 Default region name : -----
 
 Default output format : json
-
+`
 
 ## Create Instance from Masters AWS Instance
 
@@ -27,7 +27,7 @@ Default output format : json
 
 When you launch an instance in Amazon EC2, you have the option of passing user data to the instance that can be used to perform common automated configuration tasks and even run scripts after the instance starts. You can pass two types of user data to Amazon EC2: shell scripts and cloud-init directives. 
 
-To specify a user data script, change USER_DATA="file://<script_name>" in InstantR.sh. 
+To specify a user data script, change `USER_DATA="file://<script_name>"` in InstantR.sh. 
 
 ## User Data Template 
 
