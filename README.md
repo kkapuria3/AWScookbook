@@ -8,14 +8,14 @@ With InstantR.sh you can create a launch template that contains the configuratio
 	aws configure
 
 Example:
-`AWS Access Key ID : ----
 
-AWS Secret Access Key : -----
+`AWS Access Key ID : ----`
 
-Default region name : -----
+`AWS Secret Access Key : -----`
 
-Default output format : json
-`
+`Default region name : -----`
+
+`Default output format : json`
 
 ## Create Instance from Masters AWS Instance
 
