@@ -1,5 +1,5 @@
 # AWScookbook
-Scripts to fill your AWSome life | Karan Kapuria 
+AWS Script to Create Instances from EC2 using AWS CLI. This script contains all the parameters to launch a secured instance with correct details from a running EC2 instance.
 
 ## Things-Before-AWSomeness
 
