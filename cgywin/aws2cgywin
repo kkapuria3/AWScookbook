@@ -1,0 +1,13 @@
+##  If you run pip install awscli from cygwin, it may install awscli in Window's Anaconda Python installation, instead of in Cygwin's Python (which is what you want). Then, when you run aws configure, you will get an error that the aws executable can't be found. The solution is to try the following from a cygwin shell:
+
+pip uninstall awscli
+wget rawgit.com/transcode-open/apt-cyg/master/apt-cyg
+install apt-cyg /bin
+apt-cyg install python
+wget https://bootstrap.pypa.io/get-pip.py
+python get-pip.py
+pip install awscli
+
+##  This will ensure that you have python and pip installed in cygwin. You may already have some of the above tools installed (such as apt-cyg), but there is no harm in running the above commands. 
+
+## Once you are done, try running `aws configure` again and it should work now.
